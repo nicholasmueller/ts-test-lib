@@ -1,4 +1,4 @@
-import * as moduleA from 'moduleA';
+import * as moduleA from './moduleA';
 
 interface ITsLib {
   age: number
