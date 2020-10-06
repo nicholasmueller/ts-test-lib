@@ -1,6 +1,6 @@
 {
   "name": "nicholasmueller-ts-test-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "ts test library",
   "main": "./dist/index.js",
@@ -8,7 +8,7 @@
   "author": "nicholasmueller <nicholasmueller91@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "publish": "yarn compile && npm publish",
+    "release": "yarn compile && npm publish",
     "compile": "tsc"
   },
   "devDependencies": {
