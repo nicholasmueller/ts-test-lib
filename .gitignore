@@ -1,0 +1,13 @@
+node_modules
+*.log
+.env
+.DS_Store
+.vscode
+.idea
+
+# ignore build directories
+build
+dist
+
+# force yarn usage
+package-lock.json

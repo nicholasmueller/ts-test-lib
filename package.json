@@ -1,0 +1,16 @@
+{
+  "name": "ts-test-lib",
+  "version": "1.0.0",
+  "description": "ts test library",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "nicholasmueller <nicholasmueller91@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "publish": "yarn compile && npm publish",
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
