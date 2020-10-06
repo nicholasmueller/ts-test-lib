@@ -1,11 +1,11 @@
 import * as moduleA from 'moduleA';
 
 interface ITsLib {
-  age: string
+  age: number
 }
 
 class TsLib {
-  private readonly age: string;
+  private readonly age: number;
 
   public constructor ({
     age
