@@ -3,6 +3,7 @@
     "module": "commonjs",
     "target": "es2015",
     "declaration": true,
+    "declarationDir": "./dist",
     "outDir": "./dist",
     "baseUrl": "src",
     "esModuleInterop": true,
