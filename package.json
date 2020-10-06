@@ -1,6 +1,7 @@
 {
   "name": "@nicholasmueller/ts-test-lib",
   "version": "1.0.0",
+  "private": false,
   "description": "ts test library",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
