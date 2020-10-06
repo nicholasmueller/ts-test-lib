@@ -1,4 +1,4 @@
-import * as moduleA from './moduleA';
+import { IMyPublicFunction, IMyPublicFunctionResult, delegatedFunction } from './moduleA';
 
 interface ITsLib {
   age: number
@@ -19,10 +19,10 @@ class TsLib {
 
   public myPublicFunction ({
     name
-  }: moduleA.IMyPublicFunction): moduleA.IMyPublicFunctionResult {
+  }: IMyPublicFunction): IMyPublicFunctionResult {
     try {
       this.myPrivFunction();
-      return moduleA.delegatedFunction(name);
+      return delegatedFunction(name);
     } catch (error) {
       throw new Error('custom error...');
     }
