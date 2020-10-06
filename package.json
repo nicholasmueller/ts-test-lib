@@ -1,5 +1,5 @@
 {
-  "name": "@nicholasmueller/ts-test-lib",
+  "name": "nicholasmueller-ts-test-lib",
   "version": "1.0.0",
   "private": false,
   "description": "ts test library",
